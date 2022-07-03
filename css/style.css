@@ -116,7 +116,7 @@ transition: 0.5s;
 
 .backgroundmainimg {
     content: "";
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: url('/img/01-mercedes-benz-eqs-suv-3400x1440.jpeg');
     background-position: center;
@@ -777,4 +777,111 @@ footer {
 
 .contact-form button {
     margin: 20px 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background: #ffffff;
+} 
+
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right, #2c47df, #2d0b00);
+    color: #fff;
+    padding: 60px 0px 0px 0px;
+    border-top-left-radius: 140px;
+    font-size:13px; 
+  
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    /* text-align: center; */
+}
+.footer-col_1{
+    flex-basis:60%;
+}
+.footer-col_2{
+    flex-basis:10%;
+}
+
+.footer-row h3{
+    font-size: 32px;
+}
+.col_1-p{
+    margin-top: 10px;
+    line-height: 20px;
+
+}
+.footer-row p{
+   font-size: 15px;
+   font-family: 'Nanum Myeongjo', serif;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin:20px 0;
+}
+/* .footer-ul li{
+    margin-top: 20px;
+} */
+.footer_above_hr{
+    margin-top: 24px;
+}
+.footer-ul{
+
+    display: flex;
+    margin: auto;
+    width: 30%;
+    justify-content: space-around;
+    list-style: none;
+}
+.footer-ul li{
+    font-size: 20px;
+}
+footer hr{
+    width: 80%;
+    margin: 15px auto 30px auto;
+}
+.footer-row2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.row2-col1{
+    font-size: 20px;
+}
+.footer-row2 ul{
+  margin-bottom: 10px;
+    list-style: none;
+    display:flex;
+    color: #ccc;
+    justify-content: space-between;
+} 
+.footer-row2 ul li{
+    font-size: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 2px;
+    width: 30px;
+} 
+.footer-row2 ul li:hover{
+   box-shadow: 1px 1px 10px black;
+   
+} 
+.footer-ul li:hover{
+    color: rgba(255, 14, 151, 0.477);
+  text-shadow: 1px 1px 10px black;
+} 
+.ez{
+    margin-top: 70px;
 }
